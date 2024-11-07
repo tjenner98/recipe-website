@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>My Baking Addiction | Home</title>
+
+<style>
+    p.thick{
+	font-weight: bold;
+}
+	h1{
+	font-family: MS Gothic;
+}
+	h2{
+	font-family: verdana;
+	}
+	
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: right;
+  font-family: garamond;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: garamond;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: lightgreen
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	
+  
+
+/* Footer */
+.footer {
+   padding: 5px;
+   text-align: center;
+   background: #e4d9fc;
+	
+      }
+	body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+</style>
+</head>
+<body>
+      
+  <div class="navbar">
+      
+	<input type="text" placeholder="Search..">
+      <div class="dropdown">
+    <button class="dropbtn">RECIPES 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">DESSERTS</a>
+      <a href="#">COOKIES</a>
+      <a href="#">CAKE</a>
+      <a href="#">EASY RECIPES</a>
+</div>
+      <a href="#">TRAVEL</a>
+      <a href="https://www.mybakingaddiction.com/baking-basics/">BAKING</a>
+      <a href="#">LIFE</a>
+      <a href="#">HOME</a>
+
+<p style= font-size: 20px; color:#1F9AFE;">
+<a href="https://docs.google.com/forms/d/1qHx3b90W4tCtsc0u_rzzPz7RGXkWwudxGbqKsg7hm0Y/edit">SUBSCRIBE</a>
+</p>
+
+<body>
+
+
+<button class="open-button" onclick="openForm()">Subscribe</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Subscribe to My Baking Addiction!</h1>
+    <p>Get updates on the latest posts and more from My Baking Addiction straight to your inbox.</p>
+
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="First Name" name="email" required>
+
+    <label for="psw"><b>Email</b></label>
+    <input type="password" placeholder="Your Email" name="psw" required>
+
+    <button type="subscribe" class="btn">Subscribe!</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+
+
+    </div>
+</div>       
+ 	 <div class="hero__content container mx-auto">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-0">
+          <h1>
+            <b>MY BAKING</b> </h1>
+	<h1><b>ADDICTION</b></h1>
+         
+        </div>
+    
+  </header>
+
+  <!-- ===================================== --!>
+  
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
+<!DOCTYPE html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+ </ul>
+            
+      <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+  </li>
+	
+     
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #6b705c;
+        }
+        h2 {
+            color: #6b705c;
+            border-bottom: 2px solid #6b705c;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .instructions {
+            display: none;
+            margin-top: 20px;
+        }
+        .show-more-btn {
+            background-color: #6b705c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .show-more-btn:hover {
+            background-color: #4f5744;
+        }
+    </style>
+</head>
+<body>
+
+<img src= https://www.mybakingaddiction.com/wp-content/uploads/2010/12/plate-of-cranberry-bliss-bars.jpg.webp
+ 	alt="Cranberry Bliss Bars" 
+        align="left"
+	width= "240"
+	height="360">  
+    <h1>Cranberry Bliss Bars Recipe</h1>
+    <h>If you find yourself counting down the days until you can get your hands on Cranberry Bliss Bars, this copycat recipe is exactly what you need to enjoy them at home any time of the year.</h>
+    <button class="show-more-btn" onclick="toggleRecipe('recipe1')">Read More</button>
+
+    <div id="recipe1" class="instructions">
+        <h2>Ingredients</h2>
+        <h3>For the Bars:</h3>
+        <ul>
+            <li>1 cup (2 sticks) unsalted butter, melted</li>
+            <li>1 cup packed light brown sugar</li>
+            <li>½ cup granulated sugar</li>
+            <li>2 large eggs</li>
+            <li>1 teaspoon vanilla extract</li>
+            <li>1 teaspoon orange extract (optional)</li>
+            <li>2 cups all-purpose flour</li>
+            <li>1½ teaspoons baking powder</li>
+            <li>½ teaspoon salt</li>
+            <li>1 teaspoon ground ginger</li>
+            <li>¾ cup dried cranberries, chopped</li>
+            <li>¾ cup white chocolate chips</li>
+        </ul>
+
+        <h3>For the Cream Cheese Frosting:</h3>
+        <ul>
+            <li>8 oz cream cheese, softened</li>
+            <li>1 cup powdered sugar</li>
+            <li>½ teaspoon vanilla extract</li>
+            <li>Zest of 1 orange (about 1–2 teaspoons)</li>
+            <li>¼ cup dried cranberries, chopped (for garnish)</li>
+            <li>¼ cup white chocolate, melted (for drizzling)</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <h3>1. Make the Bars:</h3>
+        <p>Preheat oven to 350°F (175°C). Grease a 9x13-inch baking pan and line it with parchment paper, leaving some overhang for easy removal.</p>
+        <p>In a large bowl, whisk together the melted butter, brown sugar, and granulated sugar until smooth.</p>
+        <p>Add the eggs, vanilla extract, and orange extract (if using). Whisk until well combined.</p>
+        <p>In a separate bowl, whisk together the flour, baking powder, salt, and ginger.</p>
+        <p>Gradually add the dry ingredients to the wet mixture, stirring until just combined.</p>
+        <p>Fold in the chopped cranberries and white chocolate chips.</p>
+        <p>Spread the batter evenly in the prepared pan. Bake for 18–22 minutes, or until a toothpick inserted in the center comes out clean. Do not overbake – the bars should remain soft and chewy.</p>
+        <p>Allow the bars to cool completely in the pan.</p>
+
+        <h3>2. Make the Cream Cheese Frosting:</h3>
+        <p>In a medium bowl, beat the softened cream cheese and powdered sugar until smooth and creamy.</p>
+        <p>Add the vanilla extract and orange zest, mixing until combined.</p>
+
+        <h3>3. Assemble the Bars:</h3>
+        <p>Spread the cream cheese frosting evenly over the cooled bars.</p>
+        <p>Sprinkle the chopped dried cranberries over the frosting for garnish.</p>
+        <p>Drizzle the melted white chocolate over the top.</p>
+
+        <h3>4. Chill and Serve:</h3>
+        <p>Chill the bars in the fridge for 30 minutes to set the frosting before cutting them into triangles or squares.</p>
+        <p>Enjoy your homemade Cranberry Bliss Bars!</p>
+
+        <p><strong>Note:</strong> These bars store well in an airtight container in the fridge for up to 5 days.</p>
+    </div>
+
+<img src= https://www.mybakingaddiction.com/wp-content/uploads/2021/11/garlic-mashed-potatoes-close-up.jpg.webp
+	alt= "Garlic Mashed Potatoes"
+	align="left"
+	width="240"
+	height="360"> 
+    <h1>Garlic Mashed Potatoes Recipe</h1>
+    <h> Mashed potatoes are a favorite holiday side for a reason! These Garlic Mashed Potatoes are full of roasted garlic flavor and sure to be a hit with everyone.</h>
+    <button class="show-more-btn" onclick="toggleRecipe('recipe2')">Read More</button>
+
+    <div id="recipe2" class="instructions">
+         <h2>Ingredients</h2>
+        <ul>
+            <li>2 lbs Yukon Gold or Russet potatoes, peeled and cubed</li>
+            <li>4 cloves garlic, peeled</li>
+            <li>½ cup heavy cream (or milk for a lighter version)</li>
+            <li>¼ cup unsalted butter</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Chopped fresh chives or parsley (optional, for garnish)</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <h3>1. Cook the Potatoes and Garlic:</h3>
+        <p>In a large pot, add potatoes and garlic cloves. Fill with water to cover the potatoes by about an inch.</p>
+        <p>Bring to a boil over medium-high heat, then reduce the heat to a simmer. Cook for 15-20 minutes, or until potatoes are fork-tender.</p>
+
+        <h3>2. Mash the Potatoes:</h3>
+        <p>Drain the potatoes and garlic, then return them to the pot.</p>
+        <p>Add the butter and mash the potatoes and garlic together until smooth.</p>
+
+        <h3>3. Add Cream and Season:</h3>
+        <p>Pour in the heavy cream, and continue mashing until creamy. Add salt and pepper to taste.</p>
+
+        <h3>4. Serve:</h3>
+        <p>Transfer the mashed potatoes to a serving bowl. Top with chopped chives or parsley for garnish, if desired. Serve warm and enjoy!</p>
+
+        <p><strong>Tip:</strong> For extra flavor, roast the garlic beforehand for a richer taste!</p>
+    </div>
+<img src= https://www.mybakingaddiction.com/wp-content/uploads/2018/11/pumpkin-muffins-on-cooling-rack.jpg.webp
+alt= "Pumpkin Muffins"
+	align= "left"
+	width= "240"
+	height="360" >
+    
+    <h1>Pumpkin Muffins Recipe</h1>
+    <h> Pumpkin Muffins pop with warm and comforting fall spices, a perfect match for earthy pumpkin.</h>
+    <button class="show-more-btn" onclick="toggleRecipe('recipe3')">Read More</button>
+
+    <div id="recipe3" class="instructions">
+     <h2>Ingredients</h2>
+        <ul>
+            <li>1 and 3/4 cups all-purpose flour</li>
+            <li>1 cup granulated sugar</li>
+            <li>1/2 cup light brown sugar, packed</li>
+            <li>1 teaspoon baking soda</li>
+            <li>1/2 teaspoon salt</li>
+            <li>2 teaspoons ground cinnamon</li>
+            <li>1 teaspoon ground nutmeg</li>
+            <li>1/2 teaspoon ground ginger</li>
+            <li>1/2 teaspoon ground cloves</li>
+            <li>2 large eggs</li>
+            <li>1 can (15 oz) pumpkin puree (not pumpkin pie filling)</li>
+            <li>1/2 cup vegetable oil</li>
+            <li>1/4 cup milk</li>
+            <li>1 teaspoon vanilla extract</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <h3>1. Prepare for Baking:</h3>
+        <p>Preheat oven to 350°F (175°C). Line a 12-cup muffin pan with muffin liners or grease with non-stick spray.</p>
+
+        <h3>2. Mix Dry Ingredients:</h3>
+        <p>In a large bowl, whisk together the flour, granulated sugar, brown sugar, baking soda, salt, cinnamon, nutmeg, ginger, and cloves.</p>
+
+        <h3>3. Mix Wet Ingredients:</h3>
+        <p>In another bowl, whisk together the eggs, pumpkin puree, oil, milk, and vanilla extract until smooth.</p>
+
+        <h3>4. Combine and Fill Muffin Cups:</h3>
+        <p>Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.</p>
+        <p>Divide the batter evenly among the muffin cups, filling each about 3/4 full.</p>
+
+        <h3>5. Bake and Cool:</h3>
+        <p>Bake for 20–25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.</p>
+        <p>Let muffins cool in the pan for a few minutes, then transfer to a wire rack to cool completely.</p>
+
+        <p><strong>Enjoy your warm and cozy pumpkin muffins!</strong></p>
+    </div>
+    <img src= https://www.mybakingaddiction.com/wp-content/uploads/2021/11/potato-gratin-on-plate.jpg.webp
+	alt= "Potato  Gratin"
+	align= "left"
+	width= "240"
+	height="360" >
+   <h1>Potato Gratin Recipe</h1>
+    <h> Potato Gratin, also known as potatoes au gratin, is a decadent side dish for any occasion. This classic recipe is sure to make any meal truly feel like a holiday!</h>
+    <button class="show-more-btn" onclick="toggleRecipe('recipe4')">Read More</button>
+
+    <div id="recipe4" class="instructions">
+     <h2>Ingredients</h2>
+     <ul>
+            <li>2 lbs Yukon Gold or Russet potatoes, peeled and thinly sliced</li>
+            <li>2 cups heavy cream</li>
+            <li>1 cup shredded Gruyère or cheddar cheese</li>
+            <li>2 garlic cloves, minced</li>
+            <li>1/4 teaspoon ground nutmeg</li>
+            <li>Salt and black pepper to taste</li>
+            <li>Fresh thyme or chives, for garnish (optional)</li>
+        </ul>
+
+        <h2>Instructions</h2>
+        <h3>1. Prepare for Baking:</h3>
+        <p>Preheat the oven to 375°F (190°C). Grease a 9x13-inch baking dish with butter or non-stick spray.</p>
+
+        <h3>2. Layer the Potatoes:</h3>
+        <p>Arrange half of the sliced potatoes in an even layer in the baking dish. Season with salt and pepper.</p>
+
+        <h3>3. Add Cream Mixture:</h3>
+        <p>In a small saucepan over medium heat, combine the heavy cream, minced garlic, nutmeg, and a pinch of salt. Heat until warm but not boiling, stirring occasionally.</p>
+
+        <h3>4. Layer Cheese and Potatoes:</h3>
+        <p>Pour half of the warm cream mixture over the potatoes, then sprinkle half of the shredded cheese on top. Repeat with the remaining potatoes, cream mixture, and cheese.</p>
+
+        <h3>5. Bake:</h3>
+        <p>Cover the dish with foil and bake for 45 minutes. Remove the foil and bake for an additional 15-20 minutes, or until the potatoes are tender and the top is golden brown.</p>
+
+        <h3>6. Garnish and Serve:</h3>
+        <p>Let the gratin cool for a few minutes before serving. Garnish with fresh thyme or chives if desired.</p>
+
+        <p><strong>Enjoy your creamy and delicious Potato Gratin!</strong></p>
+    </div>
+    
+    <script>
+        function toggleRecipe(recipeId) {
+            const recipeContent = document.getElementById(recipeId);
+            const button = recipeContent.previousElementSibling;
+
+            if (recipeContent.style.display === "none" || recipeContent.style.display === "") {
+                recipeContent.style.display = "block";
+                button.innerText = "Read Less";
+            } else {
+                recipeContent.style.display = "none";
+                button.innerText = "Read More";
+            }
+        }
+    </script>
+
+</body>
+</html>
+  </header>
+
+
+  <!-- =================================== -->
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/app.css">
+
+</head>
+<body>
+
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+   </ul>
+ 
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          
+        </li>
+      </ul>
+    </nav>
+
+           <p class="block-41__copyrights">&copy; Privacy Policy | Tracy Jenner </p>
+    </div>
+  </div>
+  </header>
+
+  
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
